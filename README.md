@@ -24,10 +24,10 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 ## Run Live - One Click | Default = All
 [[Open in Colab]،(https://colab.research.google.com/assets/colab-badge.svg)][[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb)
 
-**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
+**Link alone = Generate All: 6 CSV + 8 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
 
-**Note:** Images below appear after first run. Click [Run All](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb) to generate `figures` folder, then upload to repo.
+**Note:** Images below appear after first run. Click [Run All](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb) to generate `figures` folder, then upload to repo.
 
 | Button | Input TARGET | Output | Description | Run on Mobile |
 | --- | --- | --- |
@@ -41,6 +41,8 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 | **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic7) |
 | **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic8) |
 | **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=mp4) |
+
+**How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output|
 
 **How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output
 
