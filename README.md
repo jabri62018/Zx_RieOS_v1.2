@@ -53,7 +53,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -68,6 +68,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 **Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
 
 ---
+
+**How to cite:**  
+Al-Jabri, A. (2026). *Zx_RieOS v1.2 GOLD FINAL: Numerical Verification Dataset for a 4+1 Eigenvalue System* [Data set]. Zenodo. https://doi.org/10.5281/zenodo/20100622
 
 **Z_t = Z + C + A | Zero Parameters | From Taiz, Yemen**  
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
