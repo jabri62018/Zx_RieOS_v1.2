@@ -10,7 +10,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **GitHub Release:** [v1.2 Latest]
 [(https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
 
-- **DOI:** https://doi.org/10.5281/zenodo/20100622
+- **DOI:** https://doi.org/10.5281/zenodo.20100622
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
