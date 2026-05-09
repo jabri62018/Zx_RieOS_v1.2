@@ -11,6 +11,14 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **Version DOI:** https://doi.org/10.5281/zenodo.19645066
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19645066.svg)](https://doi.org/10.5281/zenodo.19645066)
+[![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)]()
+[![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)]()
+[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)]()
+[![2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)]()
+
+> **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.  
+> **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
 
 ## Run Live - One Click | Default = All
 [[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)
@@ -78,7 +86,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 *Figure 5: Z(x) oscillations at 10^-35 m. Spacetime discrete. Time emerges from zeta phase*  
 *Run: [Button pic5](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic5)*
 
-**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 � all with 0 free parameters
+**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
 
 ## 5. Energy Flow T01 and Coincidence Problem
 ![T01](figures/Zx_t01.png)  
