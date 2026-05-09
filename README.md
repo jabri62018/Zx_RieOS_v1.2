@@ -11,6 +11,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **Version DOI:** https://doi.org/10.5281/zenodo.19645066
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
+- 
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19645066.svg)](https://doi.org/10.5281/zenodo.19645066)
 [![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)]()
 [![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)]()
