@@ -5,7 +5,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > At the end all numbers... Z_t
 
 ## Official Release v1.2
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100622.svg)](https://doi.org/10.5281/zenodo/20100622)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100622.svg)](https://doi.org/10.5281/zenodo.20100622)
 
 - **GitHub Release:** [v1.2 Latest]
 [(https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
