@@ -22,7 +22,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
 
 ## Run Live - One Click | Default = All
-[[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb)
+[[Open in Colab]،(https://colab.research.google.com/assets/colab-badge.svg)][[Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
@@ -31,16 +31,16 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 
 | Button | Input TARGET | Output | Description | Run on Mobile |
 | --- | --- | --- |
-| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb) Default |
-| **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic1) |
-| **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic2) |
-| **pic3** | `pic3` | Zx_Universe_now.png | Hubble Tension = 0 | [Run pic3](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic3) |
-| **pic4** | `pic4` | Zx_Periodic_Hierarchy.png | 10^33 Hierarchy | [Run pic4](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic4) |
-| **pic5** | `pic5` | Zx_Planck_Movie.png | Constants Freeze | [Run pic5](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic5) |
-| **pic6** | `pic6` | Zx_t01.png | T01 Energy Flow | [Run pic6](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic6) |
-| **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic7) |
-| **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=pic8) |
-| **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_all.ipynb?target=mp4) |
+| **All** | `all` | 6 CSV + 8 PNG + MP4 | Complete Universe | [Run All](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb) Default |
+| **pic1** | `pic1` | Zx_Jabri_Universe.png | Complete Framework | [Run pic1](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic1) |
+| **pic2** | `pic2` | Zx_Spacetime_Wells.png | 6 Quantum Wells | [Run pic2](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic2) |
+| **pic3** | `pic3` | Zx_Universe_now.png | Hubble Tension = 0 | [Run pic3](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic3) |
+| **pic4** | `pic4` | Zx_Periodic_Hierarchy.png | 10^33 Hierarchy | [Run pic4](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic4) |
+| **pic5** | `pic5` | Zx_Planck_Movie.png | Constants Freeze | [Run pic5](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic5) |
+| **pic6** | `pic6` | Zx_t01.png | T01 Energy Flow | [Run pic6](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic6) |
+| **pic7** | `pic7` | Zx_t12.png | Z(12)=1.2 Bridge | [Run pic7](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic7) |
+| **pic8** | `pic8` | Zx_zeros.png | Riemann Zeros | [Run pic8](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=pic8) |
+| **mp4** | `mp4` | Zx_movie.mp4 | 60s Film | [Run mp4](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb?target=mp4) |
 
 **How to run:** Click button -> Colab opens -> Runtime -> Run All -> Download output
 
