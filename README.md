@@ -14,10 +14,10 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
-[![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)]()
-[![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)]()
-[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)]()
-[![2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)]()
+[[4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#the-complete-framework-z_t--z--c--a)
+[[Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#4-planck-hierarchy-and-fine-structure)
+[[Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#3-hubble-tension-solution-jr--infinity-at-gamma_5)
+[[2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#2-six-quantum-wells-of-spacetime---well-5--dark-energy)
 
 > **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.  
 > **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
