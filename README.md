@@ -22,8 +22,7 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 > **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.  
 > **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
 
-## Run Live - One Click | Default = All
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_Mother_Function_Jabri/blob/main/Zx_5.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.2/blob/main/Zx_all.ipynb)
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
