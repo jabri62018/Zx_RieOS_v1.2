@@ -20,6 +20,18 @@ This repository contains the complete code and data for the paper: **"Zx_RieOS v
 
 ---
 
+## **Table of Contents**
+1. [Run in 60 Seconds](#run-in-60-seconds)
+2. [Key Results](#key-results)
+3. [Theory Overview](#theory-overview)
+4. [Figures](#figures)
+5. [Installation](#installation)
+6. [Reproduce All Results](#reproduce-all-results)
+7. [Citation](#citation)
+8. [License](#license)
+
+---
+
 ## **Run in 60 Seconds**
 
 [[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.2/blob/Zx_RieOS_v1.2/Zx_all.ipynb)
