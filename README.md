@@ -4,12 +4,10 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 
 > At the end all numbers... Z_t
 
-## Official Record - Double DOI
+## Official Record
 [[Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20114317.svg)](https://doi.org/10.5281/zenodo.20114317)
-[[Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.الكود_DOI_هنا.svg)](https://doi.org/10.5281/zenodo.الكود_DOI_هنا)
 
 - **Paper DOI:** [10.5281/zenodo.20114317](https://doi.org/10.5281/zenodo.20114317) | **CERN** ✅
-- **Code DOI:** [10.5281/zenodo.الكود_DOI_هنا](https://doi.org/10.5281/zenodo.الكود_DOI_هنا) | **GitHub v1.2.1** ✅
 - **GitHub Release:** [v1.2.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2.1)
 - **viXra Submission:** 18005360 | **Under Review** ⏳ | **Date:** 2026-05-10
 - **ORCID:** 0009-0003-3319-3822
@@ -69,7 +67,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -109,16 +107,4 @@ This repo unifies three kernels into one zero-parameter TOE:
 #### **Figure 9: Zx_Planck_Hierarchy**
 [Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.png)
 
-[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.png)
-
----
-
-**How to cite:**
-Al-Jabri, A. (2026). *Jabri Identity: Zero-Parameter Resolution of Hubble Tension to 0.0σ via Riemann Zeta Zeros* [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.20114317
-
-Al-Jabri, A. (2026). *Zx_RieOS v1.2.1: 60-Second Falsification Code for Jabri Identity Z_t = 1* [Software]. Zenodo. https://doi.org/10.5281/zenodo.الكود_DOI_هنا
-
-**Dual Repository Record:** Paper DOI `10.5281/zenodo.20114317` | Code DOI `10.5281/zenodo.الكود_DOI_هنا` | viXra `18005360` | Date: `2026-05-10`
-
-**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**
-**Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018
