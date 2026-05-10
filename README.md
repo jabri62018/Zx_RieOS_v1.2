@@ -1,5 +1,5 @@
 # Zx_Mother_Function_Jabri v1.2.1: The Complete Framework - Z_t = Z + C + A
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20114317.svg)](https://doi.org/10.5281/zenodo.20114317)
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 
 > At the end all numbers... Z_t
