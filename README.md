@@ -62,8 +62,21 @@ This repo unifies three kernels into one zero-parameter TOE:
 | 5 | 32.935062 | **Dark Energy** | **w = -1.03** | **DESI 2024** |
 | 6 | 37.586178 | **UV Cutoff** | M_pl = 10^19 GeV | **Cutoff** |
 
-## 3. Hubble Tension Solution: JR = infinity at gamma_5
-**Result:** G_eff = G_N/Z'(x) gives H_0 = 67.4 Planck and 73.0 SH0ES. **Tension = 0.0 sigma**
+### 3. Hubble Tension Solution: JR = infinity at gamma_5
+
+**Result:** `G_eff = G_N/Z'(x)` gives `H_0 = 67.4` Planck and `73.0` SH0ES. **Tension = 0.0 sigma**
+
+#### **Table 10: Zx_Hubble_tension**
+| Method | H0_km/s/Mpc | Error |
+| --- | --- | --- |
+| CMB_Planck | 67.4 | 0.5 |
+| Zx_Model | 69.8 | 0.0 |
+| SNe_SH0ES | 73.2 | 1.0 |
+
+#### **Figure 10: Zx_Hubble_tension**
+![Figure 10: Zx_Hubble_tension](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.png)
+
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.png)
 
 ## 4. Planck Hierarchy and Fine Structure
 **Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
