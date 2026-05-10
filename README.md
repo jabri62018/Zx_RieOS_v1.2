@@ -7,22 +7,34 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 ## Official Release v1.2
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100622.svg)](https://doi.org/10.5281/zenodo.20100622)
 
-- **GitHub Release:** [v1.2 Latest]
-[(https://github.com/jabri62018/Zx_Mother_Function_Jabri/releases/tag/v1.2)](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
-
+- **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
 - **DOI:** https://doi.org/10.5281/zenodo.20100622
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
-[![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#the-complete-framework-z_t--z--c--a)
-[![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#4-planck-hierarchy-and-fine-structure)
-[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#3-hubble-tension-solution-jr--infinity-at-gamma_5)
-[![2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#2-six-quantum-wells-of-spacetime---well-5--dark-energy)
+[![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)](#the-complete-framework-z_t--z--c--a)
+[![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)](#4-planck-hierarchy-and-fine-structure)
+[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](#3-hubble-tension-solution-jr--infinity-at-gamma_5)
+[![2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)](#2-six-quantum-wells-of-spacetime---well-5--dark-energy)
 
 > **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.  
 > **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.2/blob/main/Zx_all.ipynb)
+
+## Zero Input. Universe from scratch
+
+**Core Equations - No free parameters:**
+
+$$
+\begin{aligned}
+x_p &= 1.0 \quad \text{(Planck = Unit)} \\
+Z(x) &= x^5 \ln(x) \sin\left(\frac{2\pi}{x}\right) e^{-x/x_p} \\
+A(x) &= \left(\frac{x}{x_p}\right)^2 e^{-x/x_p} \\
+C(x) &= 1 - Z(x) - A(x) \\
+Z_t &= Z + C + A = 1
+\end{aligned}
+$$
 
 **Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
 **Buttons optional for single output. Runs on mobile in 60 seconds**
@@ -54,7 +66,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -74,9 +86,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 | SNe_SH0ES | 73.2 | 1.0 |
 
 #### **Figure 10: Zx_Hubble_tension**
-![Figure 10: Zx_Hubble_tension][(https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.png)](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
+![Figure 10: Zx_Hubble_tension](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
 
-[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.png)
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
 
 ### 4. Planck Hierarchy and Fine Structure
 
@@ -92,9 +104,10 @@ This repo unifies three kernels into one zero-parameter TOE:
 | Higgs | 5 | 125.1 | 0.006321 |
 
 #### **Figure 9: Zx_Planck_Hierarchy**
-[Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
+![Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
 
 [Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
+
 ---
 
 **How to cite:**  
