@@ -4,11 +4,12 @@ Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 
 > At the end all numbers... Z_t
 
-## Official Release v1.2
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100622.svg)](https://doi.org/10.5281/zenodo.20100622)
+## Official Release v1.2 - Dual Repository Record
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100628.svg)](https://doi.org/10.5281/zenodo.20100628)
 
+- **Zenodo DOI:** [10.5281/zenodo.20100628](https://doi.org/10.5281/zenodo.20100628) | **Published** ✅
+- **viXra Submission:** 18005360 | **Under Review** ⏳ | **Date:** 2026-05-10
 - **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
-- **DOI:** https://doi.org/10.5281/zenodo.20100622
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
@@ -66,7 +67,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 ## 2. Six Quantum Wells of Spacetime - Well 5 = Dark Energy
 
 | Well | gamma_n | Physics | Z(x) Prediction | Status |
-| --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | 14.134725 | Inflation End | t = 10^-36 s | Verified |
 | 2 | 21.022040 | Electroweak | v = 246 GeV | Verified |
 | 3 | 25.010858 | Higgs | m = 125 GeV | Verified |
@@ -111,7 +112,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 ---
 
 **How to cite:**  
-Al-Jabri, A. (2026). *Zx_RieOS v1.2 GOLD FINAL: Numerical Verification Dataset for a 4+1 Eigenvalue System* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20100622
+Al-Jabri, A. (2026). *Zx_RieOS v1.2 GOLD FINAL: Numerical Verification Dataset for a 4+1 Eigenvalue System* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20100628
+
+**Dual Repository Record:** Zenodo DOI `10.5281/zenodo.20100628` | viXra Submission `18005360` | Date: `2026-05-10`
 
 **Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**  
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
