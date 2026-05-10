@@ -113,5 +113,5 @@ This repo unifies three kernels into one zero-parameter TOE:
 **How to cite:**  
 Al-Jabri, A. (2026). *Zx_RieOS v1.2 GOLD FINAL: Numerical Verification Dataset for a 4+1 Eigenvalue System* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20100622
 
-**Z_t = Z + C + A | Zero Parameters | From Taiz, Yemen**  
+**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**  
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
