@@ -1,10 +1,10 @@
 # Zx_RieOS_v1.2
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20114317.svg)](https://doi.org/10.5281/zenodo.20114317)
-[![4+1](https://img.shields.io/badge/Dimensions-4+1-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#11-zero-free-parameter-geometry-zx--e-in-4d--zxt--1-in-5d)
-[![Zero Input](https://img.shields.io/badge/Zero_Input-Theory-green.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#12-the-complete-5d-metric-and-the-solver)
-[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#3-hubble-tension-solution-jr--infinity-at-gamma_5)
-[![DESI DR2](https://img.shields.io/badge/DESI_DR2-2806/2806-brightgreen.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#4-validation-against-observational-data)
+[[DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20114317.svg)](https://doi.org/10.5281/zenodo.20114317)
+[[4+1](https://img.shields.io/badge/Dimensions-4+1-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#11-zero-free-parameter-geometry-zx--e-in-4d--zxt--1-in-5d)
+[[Zero Input](https://img.shields.io/badge/Zero_Input-Theory-green.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#12-the-complete-5d-metric-and-the-solver)
+[[Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#3-hubble-tension-solution-jr--infinity-at-gamma_5)
+[[DESI DR2](https://img.shields.io/badge/DESI_DR2-2806/2806-brightgreen.svg)](https://github.com/jabri62018/Zx_RieOS_v1.2#4-validation-against-observational-data)
 
 **Zx_RieOS_v1.2 — The Zero-Input 4+1D Geometric Resonance Theory**
 
