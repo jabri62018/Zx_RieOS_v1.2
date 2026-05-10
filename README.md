@@ -1,27 +1,29 @@
-# Zx_Mother_Function_Jabri v1.2: The Complete Framework - Z_t = Z + C + A
+# Zx_Mother_Function_Jabri v1.2.1: The Complete Framework - Z_t = Z + C + A
 
 Riemann 1859 + Einstein 1915 = Al-Jabri 2026
 
 > At the end all numbers... Z_t
 
-## Official Release v1.2 - Dual Repository Record
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20100628.svg)](https://doi.org/10.5281/zenodo.20100628)
+## Official Record - Double DOI
+[[Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20114317.svg)](https://doi.org/10.5281/zenodo.20114317)
+[[Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.الكود_DOI_هنا.svg)](https://doi.org/10.5281/zenodo.الكود_DOI_هنا)
 
-- **Zenodo DOI:** [10.5281/zenodo.20100628](https://doi.org/10.5281/zenodo.20100628) | **Published** ✅
+- **Paper DOI:** [10.5281/zenodo.20114317](https://doi.org/10.5281/zenodo.20114317) | **CERN** ✅
+- **Code DOI:** [10.5281/zenodo.الكود_DOI_هنا](https://doi.org/10.5281/zenodo.الكود_DOI_هنا) | **GitHub v1.2.1** ✅
+- **GitHub Release:** [v1.2.1 Latest](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2.1)
 - **viXra Submission:** 18005360 | **Under Review** ⏳ | **Date:** 2026-05-10
-- **GitHub Release:** [v1.2 Latest](https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2)
 - **ORCID:** 0009-0003-3319-3822
 - **License:** CC-BY-4.0
 
-[![4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)](#the-complete-framework-z_t--z--c--a)
-[![Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)](#4-planck-hierarchy-and-fine-structure)
-[![Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](#3-hubble-tension-solution-jr--infinity-at-gamma_5)
-[![2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)](#2-six-quantum-wells-of-spacetime---well-5--dark-energy)
+[[4+1](https://img.shields.io/badge/4+1-Math_Law-red.svg)](#the-complete-framework-z_t--z--c--a)
+[[Zero Input](https://img.shields.io/badge/Zero_Input-True-green.svg)](#4-planck-hierarchy-and-fine-structure)
+[[Hubble Tension](https://img.shields.io/badge/Hubble_Tension-0.0σ-blue.svg)](#3-hubble-tension-solution-jr--infinity-at-gamma_5)
+[[2806/2806](https://img.shields.io/badge/DESI_2024-2806/2806-gold.svg)](#2-six-quantum-wells-of-spacetime---well-5--dark-energy)
 
-> **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.  
+> **Verdict:** Cauchy 1829 = Judge. Sturm = Executioner. x_p = 32.935062 = Lock.
 > **System Status:** `CLOSED` | `Drama = 0` | `Math = 1` | `Z_t = 1`
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.2/blob/main/Zx_all.ipynb)
+[[Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jabri62018/Zx_RieOS_v1.2/blob/main/Zx_all.ipynb)
 
 ## Zero Input. Universe from scratch
 
@@ -37,7 +39,7 @@ Z_t &= Z + C + A = 1
 \end{aligned}
 $$
 
-**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**  
+**Link alone = Generate All: 6 CSV + 8 PNG + 1 MP4**
 **Buttons optional for single output. Runs on mobile in 60 seconds**
 
 | Button | Input TARGET | Output | Description |
@@ -87,9 +89,9 @@ This repo unifies three kernels into one zero-parameter TOE:
 | SNe_SH0ES | 73.2 | 1.0 |
 
 #### **Figure 10: Zx_Hubble_tension**
-![Figure 10: Zx_Hubble_tension](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
+[Figure 10: Zx_Hubble_tension](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Hubble_tension.png)
 
-[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Hubble_tension.png)
 
 ### 4. Planck Hierarchy and Fine Structure
 
@@ -105,16 +107,18 @@ This repo unifies three kernels into one zero-parameter TOE:
 | Higgs | 5 | 125.1 | 0.006321 |
 
 #### **Figure 9: Zx_Planck_Hierarchy**
-![Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
+[Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.png)
 
-[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/Zx_Planck_Hierarchy.png)
 
 ---
 
-**How to cite:**  
-Al-Jabri, A. (2026). *Zx_RieOS v1.2 GOLD FINAL: Numerical Verification Dataset for a 4+1 Eigenvalue System* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20100628
+**How to cite:**
+Al-Jabri, A. (2026). *Jabri Identity: Zero-Parameter Resolution of Hubble Tension to 0.0σ via Riemann Zeta Zeros* [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.20114317
 
-**Dual Repository Record:** Zenodo DOI `10.5281/zenodo.20100628` | viXra Submission `18005360` | Date: `2026-05-10`
+Al-Jabri, A. (2026). *Zx_RieOS v1.2.1: 60-Second Falsification Code for Jabri Identity Z_t = 1* [Software]. Zenodo. https://doi.org/10.5281/zenodo.الكود_DOI_هنا
 
-**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**  
+**Dual Repository Record:** Paper DOI `10.5281/zenodo.20114317` | Code DOI `10.5281/zenodo.الكود_DOI_هنا` | viXra `18005360` | Date: `2026-05-10`
+
+**Z_t = Z + C + A | Zero Parameters | From Sana'a, Yemen**
 **Riemann 1859 + Einstein 1915 = Al-Jabri 2026**
