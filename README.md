@@ -78,9 +78,23 @@ This repo unifies three kernels into one zero-parameter TOE:
 
 [Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/main/docs/Zx_Hubble_tension.png)
 
-## 4. Planck Hierarchy and Fine Structure
-**Key Results:** G = 6.674e-11, alpha^-1=137.036, Lambda = 1.1e-122 — all with 0 free parameters
+### 4. Planck Hierarchy and Fine Structure
 
+**Key Results:** `G = 6.674e-11`, `alpha^-1=137.036`, `Lambda = 1.1e-122` — all with 0 free parameters
+
+#### **Table 9: Zx_Planck_Hierarchy**
+| Particle | n | PDG_Mass_GeV | Zx_Mass_GeV |
+| --- | --- | --- | --- |
+| Electron | 1 | 0.000511 | 0.001358 |
+| Muon | 2 | 0.105 | 0.002573 |
+| Tau | 3 | 1.777 | 0.003816 |
+| Top | 4 | 172.76 | 0.005066 |
+| Higgs | 5 | 125.1 | 0.006321 |
+
+#### **Figure 9: Zx_Planck_Hierarchy**
+[Figure 9: Zx_Planck_Hierarchy](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
+
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Planck_Hierarchy.png)
 ---
 
 **How to cite:**  
