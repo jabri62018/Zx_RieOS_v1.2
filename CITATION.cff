@@ -7,24 +7,10 @@ authors:
     affiliation: "Independent Researcher, Sana'a, Yemen"
     email: "Jabri62018@gmail.com"
 title: "The 4+1 Eigenvalue Law: Zero-Parameter Solution to Riemann Hypothesis and Cosmology"
-version: "1.2"
-doi: 10.5281/zenodo.20100628
-date-released: 2026-05-10
-url: "https://doi.org/10.5281/zenodo.20100628"
+version: "1.2.2"
+date-released: 2026-05-11
 repository-code: "https://github.com/jabri62018/Zx_RieOS_v1.2"
-repository-artifact: "https://github.com/jabri62018/Zx_RieOS_v1.2/releases/tag/v1.2"
 license: CC-BY-4.0
-
-identifiers:
-    - type: doi
-    value: "10.5281/zenodo.20100628"
-    description: "Zenodo Official DOI - Published 2026-05-10"
-    - type: other
-    value: "viXra:18005360"
-    description: "viXra Submission Form - Under Review 2026-05-10"
-    - type: doi
-    value: "10.5281/zenodo.19645066"
-    description: "Original Mother Function - Priority 2026-04-18"
 
 keywords:
     - riemann-hypothesis
@@ -45,7 +31,5 @@ preferred-citation:
   authors:
         - family-names: "الجبري"
       given-names: ""
-  journal: "Zenodo + viXra Dual Repository"
+  journal: "Zenodo Repository"
   year: 2026
-  doi: "10.5281/zenodo.20100628"
-  note: "viXra Submission: 18005360"
