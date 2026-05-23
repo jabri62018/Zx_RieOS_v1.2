@@ -3,72 +3,163 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sindbad Yemen</title>
+<title>Sindbad Yemen - Research</title>
 <style>
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-}
 body {
   font-family: Tahoma, Arial, sans-serif;
+  background: #fff;
   color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  width: 90%;
-  max-width: 500px;
+  margin: 0;
+  padding: 20px;
   text-align: center;
 }
 h1 {
-  font-size: 34px;
-  margin: 0 0 10px 0;
-  font-weight: bold;
-}
-.sub-ar {
-  font-size: 20px;
+  font-size: 32px;
   margin-bottom: 5px;
-  font-weight: bold;
 }
-.sub-en {
-  font-size: 16px;
-  margin-bottom: 35px;
+.sub {
+  font-size: 18px;
   color: #555;
+  margin-bottom: 15px;
+}
+.bird-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 15px 0;
+}
+.bar-menu {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.bar-menu button {
+  flex: 1 1 22%;
+  padding: 14px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.section {
+  display: none;
+  text-align: right;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+.section.active {
+  display: block;
+}
+.section h3 {
+  margin-top: 0;
+  text-align: center;
+}
+.section a {
+  display: block;
+  color: #0066cc;
+  text-decoration: none;
+  margin: 6px 0;
+  word-break: break-all;
 }
 .btn {
   display: block;
   width: 100%;
-  margin: 14px 0;
-  padding: 18px;
+  margin: 12px 0;
+  padding: 16px;
   background: #000;
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   border-radius: 15px;
-  box-sizing: border-box;
-}
-.eye {
-  font-size: 36px;
-  vertical-align: middle;
 }
 </style>
+<script>
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+</script>
 </head>
 <body>
 
-<div class="container">
-  <h1>1…11‡01„71„01ƒ91„7 1ƒ91†81‡41†91‡0 <span class="eye">”9Ï9„1‚5</span> <br> Sindbad Yemen</h1>
-  <div class="sub-ar">1†9/1…71„01„71ƒ91†81†81‡1 1ƒ91†81„41„01„91‡4</div>
-  <div class="sub-en">Eng. Abdulla Al-Jabri</div>
+<h1>صفحات وبحث <br> Sindbad Yemen</h1>
+<div class="sub">م. عبدالله الجبري | Eng. Abdulla Al-Jabri</div>
 
-  <a class="btn" href="https://jabri-web.github.io/jabri62018.github.io/">1ƒ91†81…31†51„51„1 1: 1†91‡21†61…71‡4 | Page 1: My Site</a>
-  <a class="btn" href="https://jabri-web.github.io/">1ƒ91†81…31†51„51„1 2: 1…51ƒ91ƒ81„9 1ƒ91†81‡41†91‡0 | Page 2: Yemen Bird</a>
-  <a class="btn" href="https://jabri-web.github.io/Zx_Mother_Function_Jabri/">1ƒ91†81…31†51„51„1 3: 1†61‡21ƒ91…71„7 1ƒ91†81„01‡41ƒ91‡01ƒ91„2 | Page 3: Databases</a>
-  <a class="btn" href="https://jabri-web.github.io/Zx_RieOS_v1.2/">1ƒ91†81…31†51„51„1 4: 1ƒ91†81…31†51„51ƒ91„2 1‡21ƒ91†81„01„51‡21„3 | Page 4: Pages & Research</a>
+<img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
+
+<!-- Bar Menu -->
+<div class="bar-menu">
+  <button onclick="showSection('email')">A - Email</button>
+  <button onclick="showSection('social')">B - Social</button>
+  <button onclick="showSection('visitor')">C - Visitors</button>
+  <button onclick="showSection('about')">D - About</button>
 </div>
+
+<!-- A: Email -->
+<div id="email" class="section">
+  <h3>الإيميلات</h3>
+  <a href="mailto:Jabri62018@gmail.com">Jabri62018@gmail.com</a>
+  <a href="mailto:Jabri62018jr@gmail.com">Jabri62018jr@gmail.com</a>
+  <a href="mailto:Jr62018jr@gmail.com">Jr62018jr@gmail.com</a>
+  <a href="mailto:AlJabriAbdulla23@gmail.com">AlJabriAbdulla23@gmail.com</a>
+  <a href="mailto:JabrAlJabri2025@gmail.com">JabrAlJabri2025@gmail.com</a>
+  <a href="mailto:NassimAbdulla113@gmail.com">NassimAbdulla113@gmail.com</a>
+</div>
+
+<!-- B: Social -->
+<div id="social" class="section">
+  <h3>وسائل التواصل</h3>
+  <a href="https://facebook.com/Jabri2026" target="_blank">Facebook - Jabri2026</a>
+  <a href="https://facebook.com/jabri2030" target="_blank">Facebook - jabri2030</a>
+  <a href="https://instagram.com/Jabri2025" target="_blank">Instagram</a>
+  <a href="https://t.me/Jabri2025" target="_blank">Telegram</a>
+  <a href="https://tiktok.com/@jabri2025" target="_blank">TikTok</a>
+  <a href="https://wa.me/+967773415383" target="_blank">WhatsApp</a>
+  <a href="https://youtub.com/@abdullajabri-p3w" target="_blank">YouTube</a>
+  <a href="https://drive.google.com/file/Zx_5.ipynb/view" target="_blank">Google Drive</a>
+  <a href="https://colab.research.google.com/github/Jabri-web/Zx_RieOS_v1.1/blob/main/Zx_al.ipynb" target="_blank">Colab Notebook</a>
+  <a href="https://doi.org/10.5281/zenodo.19963026" target="_blank">DOI - Zenodo</a>
+  <a href="https://links.gemspace.com/Yemen_Icon" target="_blank">GemSpace</a>
+  <a href="https://snapchat.com/jabri2025" target="_blank">Snapchat</a>
+  <a href="https://Jabri-web.github.io/" target="_blank">GitHub Pages</a>
+</div>
+
+<!-- C: Visitors -->
+<div id="visitor" class="section">
+  <h3>إحصائيات الزوار</h3>
+  <p>1- Counter: يمكن تفعيله عبر Statcounter أو Google Analytics</p>
+  <p>2- Links: Get URL - جاهز للإضافة</p>
+  <p>3- Time: <span id="time"></span></p>
+  <p>4- Date: <span id="date"></span></p>
+  <p>5- Like/Dislike: أضفها لاحقًا عبر Google Forms أو Firebase</p>
+  <script>
+    document.getElementById('time').innerText = new Date().toLocaleTimeString('ar-SA');
+    document.getElementById('date').innerText = new Date().toLocaleDateString('ar-SA');
+  </script>
+</div>
+
+<!-- D: About -->
+<div id="about" class="section">
+  <h3>عن الموقع</h3>
+  <p>1- صور اليمن</p>
+  <p>2- السيرة الذاتية للمؤلف</p>
+  <p>Independent Researcher - Sana'a, Yemen (2026)</p>
+</div>
+
+<!-- Main Page Links -->
+<a class="btn" href="https://jabri-web.github.io/jabri62018.github.io/">الصفحة 1: موقعي | Page 1: My Site</a>
+<a class="btn" href="https://jabri-web.github.io/">الصفحة 2: يمن بيرد | Page 2: Yemen Bird</a>
+<a class="btn" href="https://jabri-web.github.io/Zx_Mother_Function_Jabri/">الصفحة 3: قواعد البيانات | Page 3: Databases</a>
+<a class="btn" href="https://jabri-web.github.io/Zx_RieOS_v1.2/">الصفحة 4: صفحات وبحث | Page 4: Pages & Research</a>
 
 </body>
 </html>
