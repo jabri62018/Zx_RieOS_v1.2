@@ -4,9 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sindbad Yemen - Research</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body {
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Tajawal", Tahoma, Arial, sans-serif;
   background: #fff;
   color: #000;
   margin: 0;
@@ -55,15 +56,19 @@ h1 {
   text-decoration: none;
   display: block;
   box-sizing: border-box;
+  line-height: 1.4;
 }
 
 .bar-menu button:hover, .bar-menu a:hover {
   background: #333;
 }
 
-.bar-menu button:last-child {
+.bar-menu button.exit {
   background: #c62828;
 }
+
+.en-text {display: block; font-size: 16px;}
+.ar-text {display: block; font-size: 14px; opacity: 0.85; margin-top: 3px;}
 
 .row-btn {
   display: flex;
@@ -126,27 +131,56 @@ window.onload = function() {
 </head>
 <body>
 
-<h1>صفحات وبحث <br> Sindbad Yemen</h1>
-<div class="sub">م/جبر عبدالله الجبري</div>
+<h1>Sindbad Yemen <br> سندباد اليمن</h1>
+<div class="sub">Eng. Abdulla Al-Jabri <br> م/ عبدالله الجبري</div>
 <img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
 
 <!-- Bar Menu -->
 <div class="bar-menu">
-  <button onclick="showSection('email')">Email - البريد</button>
-  <button onclick="showSection('social')">Social Media - التواصل الاجتماعي</button>
-  <button onclick="showSection('visitor')">Visitors - الزوار</button>
-  <button onclick="showSection('about')">About - حول</button>
+  <!-- زر 1: Contents -->
+  <a href="https://jabri-web.github.io/jabri-web" target="_blank">
+    <span class="en-text">Contents</span>
+    <span class="ar-text">المحتوى</span>
+  </a>
+
+  <!-- Rest الأزرار الباقية -->
+  <button onclick="showSection('email')">
+    <span class="en-text">Email</span>
+    <span class="ar-text">البريد</span>
+  </button>
+  
+  <button onclick="showSection('social')">
+    <span class="en-text">Social Media</span>
+    <span class="ar-text">التواصل الاجتماعي</span>
+  </button>
+  
+  <button onclick="showSection('visitor')">
+    <span class="en-text">Visitors</span>
+    <span class="ar-text">الزوار</span>
+  </button>
+  
+  <button onclick="showSection('about')">
+    <span class="en-text">About</span>
+    <span class="ar-text">حول</span>
+  </button>
   
   <div class="row-btn">
-    <a href="index.html">Home - رجوع للرئيسية</a>
+    <a href="index.html">
+      <span class="en-text">Home</span>
+      <span class="ar-text">رجوع للرئيسية</span>
+    </a>
   </div>
 
-  <button onclick="window.close()">Exit</button>
+  <!-- زر Exit آخر شي -->
+  <button class="exit" onclick="window.close()">
+    <span class="en-text">Exit</span>
+    <span class="ar-text">خروج</span>
+  </button>
 </div>
 
 <!-- A: Email -->
 <div id="email" class="section">
-  <h3>الإيميلات</h3>
+  <h3>Email Addresses <br> الإيميلات</h3>
   <a href="mailto:Jabri62018@gmail.com">Jabri62018@gmail.com</a>
   <a href="mailto:Jabri62018jr@gmail.com">Jabri62018jr@gmail.com</a>
   <a href="mailto:Jr62018jr@gmail.com">Jr62018jr@gmail.com</a>
@@ -157,14 +191,14 @@ window.onload = function() {
 
 <!-- B: Social -->
 <div id="social" class="section">
-  <h3>وسائل التواصل</h3>
+  <h3>Social Media <br> وسائل التواصل</h3>
   <a href="https://facebook.com/Jabri2026" target="_blank">Facebook - Jabri2026</a>
   <a href="https://facebook.com/jabri2030" target="_blank">Facebook - jabri2030</a>
   <a href="https://instagram.com/Jabri2025" target="_blank">Instagram</a>
   <a href="https://t.me/Jabri2025" target="_blank">Telegram</a>
   <a href="https://tiktok.com/@jabri2025" target="_blank">TikTok</a>
   <a href="https://wa.me/+967773415383" target="_blank">WhatsApp</a>
-  <a href="https://youtub.com/@abdullajabri-p3w" target="_blank">YouTube</a>
+  <a href="https://youtube.com/@abdullajabri-p3w" target="_blank">YouTube</a>
   <a href="https://drive.google.com/file/Zx_5.ipynb/view" target="_blank">Google Drive</a>
   <a href="https://colab.research.google.com/github/Jabri-web/Zx_RieOS_v1.1/blob/main/Zx_al.ipynb" target="_blank">Colab Notebook</a>
   <a href="https://doi.org/10.5281/zenodo.19963026" target="_blank">DOI - Zenodo</a>
@@ -175,7 +209,7 @@ window.onload = function() {
 
 <!-- C: Visitors -->
 <div id="visitor" class="section">
-  <h3>إحصائيات الزوار</h3>
+  <h3>Visitors Stats <br> إحصائيات الزوار</h3>
   <p>1- Counter: يمكن تفعيله عبر Statcounter أو Google Analytics</p>
   <p>2- Links: Get URL - جاهز للإضافة</p>
   <p>3- Time: <span id="time"></span></p>
@@ -185,17 +219,17 @@ window.onload = function() {
 
 <!-- D: About -->
 <div id="about" class="section">
-  <h3>عن الموقع</h3>
-  <a href="yemen-photo.html" class="btn" style="margin: 10px 0;">1- صور اليمن</a>
-  <a href="Author-cv.html" class="btn" style="margin: 10px 0;">2- السيرة الذاتية للمؤلف</a>
+  <h3>About <br> عن الموقع</h3>
+  <a href="yemen-photo.html" class="btn" style="margin: 10px 0;">1- Yemen Photos <br> صور اليمن</a>
+  <a href="Author-cv.html" class="btn" style="margin: 10px 0;">2- Author CV <br> السيرة الذاتية للمؤلف</a>
   <p style="margin-top: 20px;">Independent Researcher - Sana'a, Yemen (2026)</p>
   <p>Author: Eng. Abdulla Al-Jabri - م/ عبدالله الجبري</p>
 </div>
 
 <!-- Footer Time/Date -->
 <div class="footer-info">
-  <span>الوقت: <span id="time"></span></span>
-  <span>التاريخ: <span id="date"></span></span>
+  <span>Time: <span id="time"></span></span>
+  <span>Date: <span id="date"></span></span>
 </div>
 
 </body>
