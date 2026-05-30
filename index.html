@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="Rtl">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sindbad Sindbad - Research</title>
-<link href="https://fonts.googleapis.com/css2?family=Tajw al:wght@400;700&display=swap" rel="stylesheet">
+<title>Sindbad Yemen - Research</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 <style>
 body {
   font-family: "Tajawal", Tahoma, Arial, sans-serif;
@@ -64,8 +64,8 @@ h1 {
   cursor: pointer;
   text-decoration: none;
   display: block;
-  box-sizing: border, box;
-  line, height: 1.4;
+  box-sizing: border-box;
+  line-height: 1.4;
 }
 
 .bar-menu button:hover, .bar-menu a:hover {
@@ -114,3 +114,42 @@ h1 {
   margin: 6px 0;
   word-break: break-all;
 }
+</style>
+<script>
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+}
+
+function pulseBird() {
+  const bird = document.querySelector('.bird-img');
+  if(!bird) return;
+  const width = window.innerWidth;
+  
+  let scale = 1.1;
+  if (width < 400) scale = 1.25;
+  else if (width < 768) scale = 1.18;
+  else scale = 1.12;
+  
+  bird.style.setProperty('--scale', scale);
+}
+
+window.onload = function() {
+  document.getElementById('time').innerText = new Date().toLocaleTimeString('ar-SA');
+  document.getElementById('date').innerText = new Date().toLocaleDateString('ar-SA');
+  pulseBird();
+};
+
+window.onresize = pulseBird;
+</script>
+</head>
+<body>
+
+<h1>Sindbad Yemen <br> سندباد اليمن</h1>
+<div class="sub">Eng. Abdulla Al-Jabri <br> م/ عبدالله الجبري</div>
+<img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
+
+<!-- كمل باقي الأزرار والـ sections حقك هنا -->
+
+</body>
+</html>
