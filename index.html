@@ -6,39 +6,51 @@
 <title>Sindbad Yemen - Research</title>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 <style>
+:root{
+  --screen-width: 90vw; /* قيمة افتراضية لحد ما الجافا تشتغل */
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
 body {
   font-family: "Tajawal", Tahoma, Arial, sans-serif;
   background: #fff;
   color: #000;
-  margin: 0;
-  padding: 20px;
+  padding: 2vh 0;
   text-align: center;
   overflow-x: hidden;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  width: var(--screen-width); /* نستخدم المتغير اللي يجي من الجافا */
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 28px;
-  margin-bottom: 5px;
+  font-size: clamp(24px, 6vw, 32px);
+  margin-bottom: 1vh;
 }
 
 .sub {
-  font-size: 18px;
+  font-size: clamp(14px, 3.5vw, 18px);
   color: #555;
-  margin-bottom: 15px;
+  margin-bottom: 2vh;
 }
 
 .bird-img {
-  width: 120px;
-  height: 120px;
+  width: clamp(80px, 25vw, 120px);
+  height: clamp(80px, 25vw, 120px);
   border-radius: 50%;
   object-fit: cover;
-  margin: 15px 0;
+  margin: 2vh 0;
   border: 3px solid #000;
-  transition: transform 0.6s ease-in-out;
   animation: pulse 2s infinite ease-in-out;
 }
 
-/* نبض الطير حسب مقاس الشاشة */
 @keyframes pulse {
  0%, 100% { transform: scale(1); }
  50% { transform: scale(var(--scale, 1.15)); }
@@ -47,109 +59,117 @@ h1 {
 .bar-menu {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin: 20px auto;
-  max-width: 400px;
+  gap: 1.5vh;
+  margin: 2vh 0;
 }
 
 .bar-menu button, .bar-menu a {
   width: 100%;
-  padding: 14px;
+  padding: clamp(12px, 3vw, 16px);
   background: #000;
   color: #fff;
   border: none;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: clamp(14px, 3.5vw, 16px);
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   display: block;
-  box-sizing: border-box;
-  line-height: 1.4;
-}
-
-.bar-menu button:hover, .bar-menu a:hover {
-  background: #333;
 }
 
 .bar-menu button.exit {
   background: #c62828;
 }
 
-.en-text {display: block; font-size: 16px;}
-.ar-text {display: block; font-size: 14px; opacity: 0.85; margin-top: 3px;}
-
-.row-btn {
-  display: flex;
-  gap: 10px;
-}
-
-.row-btn a {
-  flex: 1;
-}
-
 .section {
   display: none;
   text-align: right;
   background: #f5f5f5;
-  padding: 15px;
+  padding: 3vw;
   border-radius: 12px;
-  margin: 15px auto;
-  max-width: 400px;
+  margin: 2vh 0;
 }
 
 .section.active {
   display: block;
 }
-
-.section h3 {
-  margin-top: 0;
-  text-align: center;
-}
-
-.section a {
-  display: block;
-  color: #0066cc;
-  text-decoration: none;
-  margin: 6px 0;
-  word-break: break-all;
-}
 </style>
+
 <script>
+// نقرأ مقاس الشاشة ونطبقه
+function setScreenSize(){
+  const screenWidth = window.innerWidth;
+  const containerWidth = screenWidth * 0.95; // أصغر من الشاشة بـ 5%
+  const maxWidth = 500; // لا تتجاوز 500px في الشاشات الكبيرة
+  
+  const finalWidth = Math.min(containerWidth, maxWidth);
+  document.documentElement.style.setProperty('--screen-width', finalWidth + 'px');
+  
+  // نبض الطير حسب المقاس
+  const bird = document.querySelector('.bird-img');
+  if(bird){
+    let scale = 1.12;
+    if (screenWidth < 400) scale = 1.25;
+    else if (screenWidth < 768) scale = 1.18;
+    bird.style.setProperty('--scale', scale);
+  }
+}
+
 function showSection(id) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
 }
 
-function pulseBird() {
-  const bird = document.querySelector('.bird-img');
-  if(!bird) return;
-  const width = window.innerWidth;
-  
-  let scale = 1.1;
-  if (width < 400) scale = 1.25;
-  else if (width < 768) scale = 1.18;
-  else scale = 1.12;
-  
-  bird.style.setProperty('--scale', scale);
-}
-
 window.onload = function() {
+  setScreenSize(); // نقرأ المقاس أول شي
   document.getElementById('time').innerText = new Date().toLocaleTimeString('ar-SA');
   document.getElementById('date').innerText = new Date().toLocaleDateString('ar-SA');
-  pulseBird();
 };
 
-window.onresize = pulseBird;
+window.onresize = setScreenSize; // لو غيرت اتجاه الجوال
 </script>
 </head>
 <body>
 
-<h1>Sindbad Yemen <br> سندباد اليمن</h1>
-<div class="sub">Eng. Abdulla Al-Jabri <br> م/ عبدالله الجبري</div>
-<img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
+<div class="container">
+  <h1>Sindbad Yemen<br>سندباد اليمن</h1>
+  <div class="sub">Eng. Abdulla Al-Jabri<br>م/ عبدالله الجبري</div>
+  <img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
 
-<!-- كمل باقي الأزرار والـ sections حقك هنا -->
+  <div class="bar-menu">
+    <button onclick="showSection('s1')">
+      البحوث العلمية<br>Scientific Researches
+    </button>
+    
+    <button onclick="showSection('s2')">
+      المشاريع البرمجية<br>Programming Projects
+    </button>
+    
+    <a href="index.html">
+      رجوع للرئيسية<br>Back to Home
+    </a>
+    
+    <button class="exit" onclick="history.back()">
+      خروج<br>Exit 🚪
+    </button>
+  </div>
+
+  <div id="s1" class="section">
+    <h3>البحوث العلمية</h3>
+    <a href="#">بحث 1: Riemann Zeta Function</a>
+    <a href="#">بحث 2: Cosmology Theories</a>
+  </div>
+
+  <div id="s2" class="section">
+    <h3>المشاريع البرمجية</h3>
+    <a href="https://jabri-web.github.io/Zx_RieOS_v1.2">Yemen Bird OS</a>
+  </div>
+
+  <div style="background:white;border:1px solid #ddd;border-radius:12px;padding:2vh;margin-top:2vh;text-align:right;font-size:clamp(12px, 3vw, 14px)">
+    <b style="color:#0a3d62">التاريخ:</b> <span id="date">...</span><br>
+    <b style="color:#0a3d62">الوقت:</b> <span id="time">...</span>
+  </div>
+</div>
 
 </body>
 </html>
