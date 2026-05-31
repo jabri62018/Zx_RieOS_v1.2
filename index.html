@@ -67,7 +67,7 @@ h1 { font-size: 28px; margin-bottom: 5px; }
 </style>
 
 <script>
-// 噩爻 賳亘囟 丕賱卮丕卮丞 賵鬲賰亘賷乇/鬲氐睾賷乇 丕賱丨丕賵賷丞 + 丕賱胤賷乇
+// جس نبض الشاشة وتكبير/تصغير الحاوية + الطير
 function adjustScreen(){
   const screenWidth = window.innerWidth;
   let containerWidth = screenWidth - 40;
@@ -107,54 +107,54 @@ window.onresize = adjustScreen;
 <body>
 
 <div class="wrapper">
-  <h1>Sindbad Yemen <br> 爻賳丿亘丕丿 丕賱賷賲賳</h1>
-  <div class="sub">Eng. Abdulla Al-Jabri <br> 賲/ 毓亘丿丕賱賱賴 丕賱噩亘乇賷</div>
+  <h1>Sindbad Yemen <br> سندباد اليمن</h1>
+  <div class="sub">Eng. Abdulla Al-Jabri <br> م/ عبدالله الجبري</div>
   <img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
 
   <!-- Bar Menu -->
   <div class="bar-menu">
-    <!-- 丕賱鬲毓丿賷賱: 丕賱賲丨鬲賵賶 賷丨賲賱 Research.html 賳賮爻賴 -->
-    <a href="Research.html">
+    <!-- مصلح: المحتوى يحمل Yemen-library.html -->
+    <a href="Yemen-library.html" target="_blank">
       <span class="en-text">Contents</span>
-      <span class="ar-text">丕賱賲丨鬲賵賶</span>
+      <span class="ar-text">المحتوى</span>
     </a>
 
     <button onclick="showSection('email')">
       <span class="en-text">Email</span>
-      <span class="ar-text">丕賱亘乇賷丿</span>
+      <span class="ar-text">البريد</span>
     </button>
 
     <button onclick="showSection('social')">
       <span class="en-text">Social Media</span>
-      <span class="ar-text">丕賱鬲賵丕氐賱 丕賱丕噩鬲賲丕毓賷</span>
+      <span class="ar-text">التواصل الاجتماعي</span>
     </button>
 
     <button onclick="showSection('visitor')">
       <span class="en-text">Visitors</span>
-      <span class="ar-text">丕賱夭賵丕乇</span>
+      <span class="ar-text">الزوار</span>
     </button>
 
     <button onclick="showSection('about')">
       <span class="en-text">About</span>
-      <span class="ar-text">丨賵賱</span>
+      <span class="ar-text">حول</span>
     </button>
 
     <div class="row-btn">
       <a href="index.html">
         <span class="en-text">Home</span>
-        <span class="ar-text">乇噩賵毓 賱賱乇卅賷爻賷丞</span>
+        <span class="ar-text">رجوع للرئيسية</span>
       </a>
     </div>
 
     <button class="exit" onclick="history.back()">
       <span class="en-text">Exit</span>
-      <span class="ar-text">禺乇賵噩</span>
+      <span class="ar-text">خروج</span>
     </button>
   </div>
 
   <!-- A: Email -->
   <div id="email" class="section">
-    <h3>Email Addresses <br> 丕賱廿賷賲賷賱丕鬲</h3>
+    <h3>Email Addresses <br> الإيميلات</h3>
     <a href="mailto:Jabri62018@gmail.com">Jabri62018@gmail.com</a>
     <a href="mailto:Jabri62018jr@gmail.com">Jabri62018jr@gmail.com</a>
     <a href="mailto:Jr62018jr@gmail.com">Jr62018jr@gmail.com</a>
@@ -165,7 +165,7 @@ window.onresize = adjustScreen;
 
   <!-- B: Social -->
   <div id="social" class="section">
-    <h3>Social Media <br> 賵爻丕卅賱 丕賱鬲賵丕氐賱</h3>
+    <h3>Social Media <br> وسائل التواصل</h3>
     <a href="https://facebook.com/Jabri2026" target="_blank">Facebook - Jabri2026</a>
     <a href="https://facebook.com/jabri2030" target="_blank">Facebook - jabri2030</a>
     <a href="https://instagram.com/Jabri2025" target="_blank">Instagram</a>
@@ -183,21 +183,21 @@ window.onresize = adjustScreen;
 
   <!-- C: Visitors -->
   <div id="visitor" class="section">
-    <h3>Visitors Stats <br> 廿丨氐丕卅賷丕鬲 丕賱夭賵丕乇</h3>
-    <p>1- Counter: 賷賲賰賳 鬲賮毓賷賱賴 毓亘乇 Statcounter 兀賵 Google Analytics</p>
-    <p>2- Links: Get URL - 噩丕賴夭 賱賱廿囟丕賮丞</p>
+    <h3>Visitors Stats <br> إحصائيات الزوار</h3>
+    <p>1- Counter: يمكن تفعيله عبر Statcounter أو Google Analytics</p>
+    <p>2- Links: Get URL - جاهز للإضافة</p>
     <p>3- Time: <span id="time-visitor"></span></p>
     <p>4- Date: <span id="date-visitor"></span></p>
-    <p>5- Like/Dislike: 兀囟賮賴丕 賱丕丨賯賸丕 毓亘乇 Google Forms 兀賵 Firebase</p>
+    <p>5- Like/Dislike: أضفها لاحقًا عبر Google Forms أو Firebase</p>
   </div>
 
   <!-- D: About -->
   <div id="about" class="section">
-    <h3>About <br> 毓賳 丕賱賲賵賯毓</h3>
-    <a href="yemen-photo.html" style="margin: 10px 0;">1- Yemen Photos <br> 氐賵乇 丕賱賷賲賳</a>
-    <a href="Author-cv.html" style="margin: 10px 0;">2- Author CV <br> 丕賱爻賷乇丞 丕賱匕丕鬲賷丞 賱賱賲丐賱賮</a>
+    <h3>About <br> عن الموقع</h3>
+    <a href="yemen-photo.html" style="margin: 10px 0;">1- Yemen Photos <br> صور اليمن</a>
+    <a href="Author-cv.html" style="margin: 10px 0;">2- Author CV <br> السيرة الذاتية للمؤلف</a>
     <p style="margin-top: 20px;">Independent Researcher - Sana'a, Yemen (2026)</p>
-    <p>Author: Eng. Abdulla Al-Jabri - 賲/ 毓亘丿丕賱賱賴 丕賱噩亘乇賷</p>
+    <p>Author: Eng. Abdulla Al-Jabri - م/ عبدالله الجبري</p>
   </div>
 
   <!-- Footer Time/Date -->
