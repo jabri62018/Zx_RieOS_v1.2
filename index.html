@@ -6,11 +6,7 @@
 <title>Sindbad Yemen - Research</title>
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --container-width: 400px; /* الجافا بتغيرها حسب الشاشة */
-  --bird-scale: 1.15;
-}
-
+:root{ --container-width: 400px; --bird-scale: 1.15; }
 *{box-sizing:border-box}
 body {
   font-family: "Tajawal", Tahoma, Arial, sans-serif;
@@ -21,15 +17,9 @@ body {
   text-align: center;
   overflow-x: hidden;
 }
-
-.wrapper{
-  width: var(--container-width);
-  margin: 0 auto;
-}
-
+.wrapper{ width: var(--container-width); margin: 0 auto; }
 h1 { font-size: 28px; margin-bottom: 5px; }
 .sub { font-size: 18px; color: #555; margin-bottom: 15px; }
-
 .bird-img {
   width: 120px;
   height: 120px;
@@ -41,12 +31,10 @@ h1 { font-size: 28px; margin-bottom: 5px; }
   animation: pulse 2s infinite ease-in-out;
   transform: scale(var(--bird-scale));
 }
-
 @keyframes pulse {
  0%, 100% { transform: scale(var(--bird-scale)); }
  50% { transform: scale(calc(var(--bird-scale) * 1.08)); }
 }
-
 .bar-menu { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
 .bar-menu button, .bar-menu a {
   width: 100%;
@@ -61,45 +49,36 @@ h1 { font-size: 28px; margin-bottom: 5px; }
   text-decoration: none;
   display: block;
   line-height: 1.4;
+  transition: 0.2s;
 }
-.bar-menu button:hover, .bar-menu a:hover { background: #333; }
+.bar-menu button:hover, .bar-menu a:hover { background: #333; transform: translateY(-2px); }
 .bar-menu button.exit { background: #c62828; }
+.bar-menu button.exit:hover { background: #b71c1c; }
 .en-text {display: block; font-size: 16px;}
 .ar-text {display: block; font-size: 14px; opacity: 0.85; margin-top: 3px;}
 .row-btn { display: flex; gap: 10px; }
 .row-btn a { flex: 1; }
-
 .section { display: none; text-align: right; background: #f5f5f5; padding: 15px; border-radius: 12px; margin: 15px 0; }
 .section.active { display: block; }
 .section h3 { margin-top: 0; text-align: center; }
 .section a { display: block; color: #0066cc; text-decoration: none; margin: 6px 0; word-break: break-all; }
-
-.footer-info {
-  margin-top: 30px;
-  font-size: 14px;
-  color: #555;
-  display: flex;
-  justify-content: space-between;
-}
+.section a:hover { text-decoration: underline; }
+.footer-info { margin-top: 30px; font-size: 14px; color: #555; display: flex; justify-content: space-between; }
 </style>
 
 <script>
 // جس نبض الشاشة وتكبير/تصغير الحاوية + الطير
 function adjustScreen(){
   const screenWidth = window.innerWidth;
-  
-  // 1. نحدد عرض الحاوية: أصغر من الشاشة بـ 20px عشان الهوامش
   let containerWidth = screenWidth - 40;
-  if(containerWidth > 400) containerWidth = 400; // الحد الأقصى
-  if(containerWidth < 300) containerWidth = 300; // الحد الأدنى
+  if(containerWidth > 400) containerWidth = 400;
+  if(containerWidth < 300) containerWidth = 300;
   
-  // 2. نبض الطير: شاشة صغيرة = نبض أكبر
   let birdScale = 1.12;
   if(screenWidth < 400) birdScale = 1.25;
   else if(screenWidth < 768) birdScale = 1.18;
   else birdScale = 1.12;
   
-  // نطبق القيم
   document.documentElement.style.setProperty('--container-width', containerWidth + 'px');
   document.documentElement.style.setProperty('--bird-scale', birdScale);
 }
@@ -109,13 +88,20 @@ function showSection(id) {
   document.getElementById(id).classList.add('active');
 }
 
-window.onload = function() {
-  adjustScreen(); // نقرأ المقاس أول ما تفتح
-  document.getElementById('time').innerText = new Date().toLocaleTimeString('ar-SA');
-  document.getElementById('date').innerText = new Date().toLocaleDateString('ar-SA');
+function updateTime(){
+  const now = new Date();
+  document.getElementById('time-footer').innerText = now.toLocaleTimeString('ar-SA');
+  document.getElementById('date-footer').innerText = now.toLocaleDateString('ar-SA');
+  document.getElementById('time-visitor').innerText = now.toLocaleTimeString('ar-SA');
+  document.getElementById('date-visitor').innerText = now.toLocaleDateString('ar-SA');
 }
 
-window.onresize = adjustScreen; // لو لفيت الجوال
+window.onload = function() {
+  adjustScreen();
+  updateTime();
+  setInterval(updateTime, 1000);
+}
+window.onresize = adjustScreen;
 </script>
 </head>
 <body>
@@ -125,9 +111,10 @@ window.onresize = adjustScreen; // لو لفيت الجوال
   <div class="sub">Eng. Abdulla Al-Jabri <br> م/ عبدالله الجبري</div>
   <img src="Yemen_bird.png" alt="Yemen Bird" class="bird-img">
 
-  <!-- Bar Menu - كل الخيارات رجعت -->
+  <!-- Bar Menu -->
   <div class="bar-menu">
-    <a href="https://jabri-web.github.io/Jabri-web/" target="_blank">
+    <!-- التعديل: المحتوى يحمل Research.html نفسه -->
+    <a href="Research.html">
       <span class="en-text">Contents</span>
       <span class="ar-text">المحتوى</span>
     </a>
@@ -159,7 +146,7 @@ window.onresize = adjustScreen; // لو لفيت الجوال
       </a>
     </div>
 
-    <button class="exit" onclick="window.close()">
+    <button class="exit" onclick="history.back()">
       <span class="en-text">Exit</span>
       <span class="ar-text">خروج</span>
     </button>
@@ -199,24 +186,24 @@ window.onresize = adjustScreen; // لو لفيت الجوال
     <h3>Visitors Stats <br> إحصائيات الزوار</h3>
     <p>1- Counter: يمكن تفعيله عبر Statcounter أو Google Analytics</p>
     <p>2- Links: Get URL - جاهز للإضافة</p>
-    <p>3- Time: <span id="time"></span></p>
-    <p>4- Date: <span id="date"></span></p>
+    <p>3- Time: <span id="time-visitor"></span></p>
+    <p>4- Date: <span id="date-visitor"></span></p>
     <p>5- Like/Dislike: أضفها لاحقًا عبر Google Forms أو Firebase</p>
   </div>
 
   <!-- D: About -->
   <div id="about" class="section">
     <h3>About <br> عن الموقع</h3>
-    <a href="yemen-photo.html" class="btn" style="margin: 10px 0;">1- Yemen Photos <br> صور اليمن</a>
-    <a href="Author-cv.html" class="btn" style="margin: 10px 0;">2- Author CV <br> السيرة الذاتية للمؤلف</a>
+    <a href="yemen-photo.html" style="margin: 10px 0;">1- Yemen Photos <br> صور اليمن</a>
+    <a href="Author-cv.html" style="margin: 10px 0;">2- Author CV <br> السيرة الذاتية للمؤلف</a>
     <p style="margin-top: 20px;">Independent Researcher - Sana'a, Yemen (2026)</p>
     <p>Author: Eng. Abdulla Al-Jabri - م/ عبدالله الجبري</p>
   </div>
 
   <!-- Footer Time/Date -->
   <div class="footer-info">
-    <span>Time: <span id="time"></span></span>
-    <span>Date: <span id="date"></span></span>
+    <span>Time: <span id="time-footer"></span></span>
+    <span>Date: <span id="date-footer"></span></span>
   </div>
 </div>
 
