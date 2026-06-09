@@ -112,7 +112,7 @@ This repo unifies three kernels into one zero-parameter TOE:
 #### **Figure 10: Zx_Hubble_tension**
 ![Figure 10: Zx_Hubble_tension](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
 
-[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
+[Download CSV](https://github.com/jabri62018/Zx_RieOS_v1.2/Data/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.csv) | [Download PNG](https://github.com/jabri62018/Zx_RieOS_v1.2/Data/raw/Zx_RieOS_v1.2/Zx_Hubble_tension.png)
 
 ### 4. Planck Hierarchy and Fine Structure
 
