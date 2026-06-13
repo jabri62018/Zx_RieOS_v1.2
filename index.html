@@ -1,215 +1,144 @@
-<! P2 =file=Yeme-bird=index.html
-<!repo= Zx_RieOS_v1.2
-
-
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sindbad Yemen - Research</title>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+<title>بوابة عبدالله الرئيسية | Abdullah Gateway - P4</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet">
 <style>
-:root{ --container-width: 400px; --bird-scale: 1.15; }
 *{box-sizing:border-box}
-body {
-  font-family: "Tajawal", Tahoma, Arial, sans-serif;
-  background: #fff;
-  color: #000;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-  overflow-x: hidden;
-}
-.wrapper{ width: var(--container-width); margin: 0 auto; }
-h1 { font-size: 28px; margin-bottom: 5px; }
-.sub { font-size: 18px; color: #555; margin-bottom: 15px; }
-.bird-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 15px 0;
-  border: 3px solid #000;
-  transition: transform 0.6s ease-in-out;
-  animation: pulse 2s infinite ease-in-out;
-  transform: scale(var(--bird-scale));
-}
-@keyframes pulse {
- 0%, 100% { transform: scale(var(--bird-scale)); }
- 50% { transform: scale(calc(var(--bird-scale) * 1.08)); }
-}
-.bar-menu { display: flex; flex-direction: column; gap: 12px; margin: 20px 0; }
-.bar-menu button, .bar-menu a {
-  width: 100%;
-  padding: 14px;
-  background: #000;
-  color: #fff;
-  border: none;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  display: block;
-  line-height: 1.4;
-  transition: 0.2s;
-}
-.bar-menu button:hover, .bar-menu a:hover { background: #333; transform: translateY(-2px); }
-.bar-menu button.exit { background: #c62828; }
-.bar-menu button.exit:hover { background: #b71c1c; }
-.en-text {display: block; font-size: 16px;}
-.ar-text {display: block; font-size: 14px; opacity: 0.85; margin-top: 3px;}
-.row-btn { display: flex; gap: 10px; }
-.row-btn a { flex: 1; }
-.section { display: none; text-align: right; background: #f5f5f5; padding: 15px; border-radius: 12px; margin: 15px 0; }
-.section.active { display: block; }
-.section h3 { margin-top: 0; text-align: center; }
-.section a { display: block; color: #0066cc; text-decoration: none; margin: 6px 0; word-break: break-all; }
-.section a:hover { text-decoration: underline; }
-.footer-info { margin-top: 30px; font-size: 14px; color: #555; display: flex; justify-content: space-between; }
+body{margin:0;padding:15px;font-family:'Cairo',Tahoma,sans-serif;background:#0a0a0a;color:#fff;text-align:center;transition:0.3s}
+body.en{direction:ltr;font-family:'Segoe UI',Tahoma,sans-serif}
+
+/* زر اللغة */
+.lang-btn{position:fixed;top:15px;left:15px;background:#ff3333;border:none;color:#fff;padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:bold;font-size:14px;z-index:9999;box-shadow:0 4px 12px rgba(255,51,51,0.4)}
+.lang-btn:hover{background:#ff5555}
+
+header{background:linear-gradient(135deg,#0a3d62,#1e6f9f);color:white;text-align:center;padding:25px 10px;border-radius:15px;margin-bottom:20px}
+header img{width:80px;height:80px;border-radius:50%;border:3px solid #00ff88;display:block;margin:0 auto 15px}
+h1{margin:0;font-size:24px}
+h2{text-align:center;color:#ff3333;margin:20px 0 10px;font-size:22px;border-bottom:2px solid #333;padding-bottom:10px;display:inline-block}
+.group{margin:20px auto;padding:15px;background:#1a1a1a;border-radius:12px;border:2px solid #333;max-width:900px}
+.group-title{font-size:18px;font-weight:bold;color:#ff3333;text-align:center;margin-bottom:12px}
+.repo-btn{display:flex;justify-content:space-between;align-items:center;width:100%;margin:10px 0;padding:18px;background:#000;color:#fff;font-size:16px;font-weight:bold;border-radius:12px;text-decoration:none;transition:0.3s;border:2px solid #333}
+.repo-btn:hover{background:#2a2a2a;border-color:#ff3333;transform:translateY(-3px)}
+footer{background:#0a0a0a;color:#666;text-align:center;padding:15px;margin-top:25px;border-top:2px solid #333;font-size:14px}
+.library-section{margin-top:40px;padding:25px;background:linear-gradient(135deg,#0a3d62,#1e6f9f);border-radius:15px;color:white;max-width:900px;margin:40px auto}
+.library-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
+.lib-card{padding:20px;background:rgba(255,255,255,0.1);border-radius:12px;text-decoration:none;color:white;text-align:center;transition:0.3s;border:2px solid rgba(0,255,136,0.3)}
+.lib-card:hover{background:rgba(0,255,136,0.2);transform:translateY(-5px)}
+.ar,.en{display:inline}
+body.en .ar{display:none}
+body:not(.en) .en{display:none}
 </style>
-
-<script>
-function adjustScreen(){
-  const screenWidth = window.innerWidth;
-  let containerWidth = screenWidth - 40;
-  if(containerWidth > 400) containerWidth = 400;
-  if(containerWidth < 300) containerWidth = 300;
-  
-  let birdScale = 1.12;
-  if(screenWidth < 400) birdScale = 1.25;
-  else if(screenWidth < 768) birdScale = 1.18;
-  else birdScale = 1.12;
-  
-  document.documentElement.style.setProperty('--container-width', containerWidth + 'px');
-  document.documentElement.style.setProperty('--bird-scale', birdScale);
-}
-
-function showSection(id) {
-  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-}
-
-function updateTime(){
-  const now = new Date();
-  document.getElementById('time-footer').innerText = now.toLocaleTimeString('ar-SA');
-  document.getElementById('date-footer').innerText = now.toLocaleDateString('ar-SA');
-  document.getElementById('time-visitor').innerText = now.toLocaleTimeString('ar-SA');
-  document.getElementById('date-visitor').innerText = now.toLocaleDateString('ar-SA');
-}
-
-window.onload = function() {
-  adjustScreen();
-  updateTime();
-  setInterval(updateTime, 1000);
-}
-window.onresize = adjustScreen;
-</script>
 </head>
 <body>
 
-<div class="wrapper">
-  <h1>Sindbad Yemen <br> سندباد اليمن</h1>
-  <div class="sub">Eng. Jabr Abdulla Al-Jabri <br> م/ جبر عبدالله الجبري</div>
-  <img src="Image/Yemen_bird.png" alt="Yemen Bird" class="bird-img">
+<button class="lang-btn" onclick="toggleLang()">
+  <span class="ar">EN</span>
+  <span class="en">عربي</span>
+</button>
 
-  <!-- Bar Menu -->
-  <div class="bar-menu">
-    <a href="Yemen-library.html" target="_blank">
-      <span class="en-text">Contents</span>
-      <span class="ar-text">المحتوى</span>
+<header>
+  <img src="Image/Yemen-bird.png" alt="طائر اليمن">
+  <h1><span class="ar">Republic of Yemen</span><span class="en">Republic of Yemen</span></h1>
+  <p style="margin:5px 0 0 0;opacity:0.9">Z + C + A = 1 | Riemann zeta & Cosmology</p>
+</header>
+
+<h2>👁️ <span class="ar">سندباد اليمن - البوابة العامة 1→10</span><span class="en">Yemen Sindbad - Main Gateway 1→10</span> 👁️</h2>
+<p style="text-align:center;color:#aaa;font-weight:bold;margin-bottom:20px"><span class="ar">م/عبدالله الجبري</span><span class="en">Eng. Abdulla Al-Jabri</span></p>
+
+<div class="group">
+  <div class="group-title"><span class="ar">المشاريع الأساسية 1→10</span><span class="en">Core Projects 1→10</span></div>
+  
+  <a href="https://jabri-web.github.io/jabri62018.github.io/" target="_blank" class="repo-btn">
+    <span><span class="ar">سندباد اليمن</span><span class="en">Sindbad Yemen</span></span>
+    <span>1</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Zx_RieOS_v1.2/" target="_blank" class="repo-btn">
+    <span><span class="ar">طائر اليمن</span><span class="en">Yemen Bird</span></span>
+    <span>2</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Zx_Mother_Function_Jabri/" target="_blank" class="repo-btn">
+    <span><span class="ar">عنكبوت اليمن</span><span class="en">Yemen Spider</span></span>
+    <span>3</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/" target="_blank" class="repo-btn">
+    <span><span class="ar">مكتبي وبحوثي</span><span class="en">My Office & Research</span></span>
+    <span>4</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Jabri_Nobble/" target="_blank" class="repo-btn">
+    <span><span class="ar">أرشيف نوبل</span><span class="en">Nobel Archive</span></span>
+    <span>5</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/jabri_lab/" target="_blank" class="repo-btn">
+    <span><span class="ar">مختبر الجبري</span><span class="en">Jabri Lab</span></span>
+    <span>6</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Zx_RieOS_v1.1/" target="_blank" class="repo-btn">
+    <span>RieOS v1.1</span>
+    <span>7</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Jabri-RiemannOS/" target="_blank" class="repo-btn">
+    <span>RiemannOS</span>
+    <span>8</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Jabri_Checkout/" target="_blank" class="repo-btn">
+    <span>Jabri Checkout</span>
+    <span>9</span>
+  </a>
+  
+  <a href="https://jabri-web.github.io/Jabri-web/" target="_blank" class="repo-btn">
+    <span>Jabri-web</span>
+    <span>10</span>
+  </a>
+</div>
+
+<div class="library-section">
+  <h2 style="color:#00ff88;text-align:center;margin-bottom:10px">📚 <span class="ar">مكتبي وبحوثي</span><span class="en">My Office & Research</span></h2>
+  <p style="text-align:center;opacity:0.9">Z + C + A = 1 | Riemann zeta & Cosmology</p>
+  <div class="library-grid">
+    <a href="https://jabri-web.github.io/" target="_blank" class="lib-card">
+      <h3>📫 <span class="ar">المكتب الرئيسي</span><span class="en">Main Office</span></h3>
+      <p><span class="ar">الأبحاث والمعادلات</span><span class="en">Research & Equations</span></p>
     </a>
-
-    <button onclick="showSection('email')">
-      <span class="en-text">Email</span>
-      <span class="ar-text">البريد</span>
-    </button>
-
-    <button onclick="showSection('social')">
-      <span class="en-text">Social Media</span>
-      <span class="ar-text">التواصل الاجتماعي</span>
-    </button>
-
-    <button onclick="showSection('visitor')">
-      <span class="en-text">Visitors</span>
-      <span class="ar-text">الزوار</span>
-    </button>
-
-    <button onclick="showSection('about')">
-      <span class="en-text">About</span>
-      <span class="ar-text">حول</span>
-    </button>
-
-    <div class="row-btn">
-      <a href="index.html">
-        <span class="en-text">Home</span>
-        <span class="ar-text">رجوع للرئيسية</span>
-      </a>
-    </div>
-
-    <button class="exit" onclick="history.back()">
-      <span class="en-text">Exit</span>
-      <span class="ar-text">خروج</span>
-    </button>
-  </div>
-
-  <!-- A: Email -->
-  <div id="email" class="section">
-    <h3>Email Addresses <br> الإيميلات</h3>
-    <a href="mailto:Jabri62018@gmail.com">Jabri62018@gmail.com</a>
-    <a href="mailto:Jabri62018jr@gmail.com">Jabri62018jr@gmail.com</a>
-    <a href="mailto:Jr62018jr@gmail.com">Jr62018jr@gmail.com</a>
-    <a href="mailto:AlJabriAbdulla23@gmail.com">AlJabriAbdulla23@gmail.com</a>
-    <a href="mailto:JabrAlJabri2025@gmail.com">JabrAlJabri2025@gmail.com</a>
-    <a href="mailto:NassimAbdulla113@gmail.com">NassimAbdulla113@gmail.com</a>
-  </div>
-
-  <!-- B: Social -->
-  <div id="social" class="section">
-    <h3>Social Media <br> وسائل التواصل</h3>
-    <a href="https://facebook.com/Jabri2026" target="_blank">Facebook - Jabri2026</a>
-    <a href="https://facebook.com/jabri2030" target="_blank">Facebook - jabri2030</a>
-    <a href="https://instagram.com/Jabri2025" target="_blank">Instagram</a>
-    <a href="https://t.me/Jabri2025" target="_blank">Telegram</a>
-    <a href="https://tiktok.com/@jabri2025" target="_blank">TikTok</a>
-    <a href="https://wa.me/+967773415383" target="_blank">WhatsApp</a>
-    <a href="https://youtube.com/@abdullajabri-p3w" target="_blank">YouTube</a>
-    <a href="https://drive.google.com/file/Zx_5.ipynb/view" target="_blank">Google Drive</a>
-    <a href="https://colab.research.google.com/github/Jabri-web/Zx_RieOS_v1.1/blob/main/Zx_al.ipynb" target="_blank">Colab Notebook</a>
-    <a href="https://doi.org/10.5281/zenodo.19963026" target="_blank">DOI - Zenodo</a>
-    <a href="https://links.gemspace.com/Yemen_Icon" target="_blank">GemSpace</a>
-    <a href="https://snapchat.com/jabri2025" target="_blank">Snapchat</a>
-    <a href="https://Jabri-web.github.io/" target="_blank">GitHub Pages</a>
-  </div>
-
-  <!-- C: Visitors -->
-  <div id="visitor" class="section">
-    <h3>Visitors Stats <br> إحصائيات الزوار</h3>
-    <p>1- Counter: يمكن تفعيله عبر Statcounter أو Google Analytics</p>
-    <p>2- Links: Get URL - جاهز للإضافة</p>
-    <p>3- Time: <span id="time-visitor"></span></p>
-    <p>4- Date: <span id="date-visitor"></span></p>
-    <p>5- Like/Dislike: أضفها لاحقًا عبر Google Forms أو Firebase</p>
-  </div>
-
-  <!-- D: About -->
-  <div id="about" class="section">
-    <h3>About <br> عن الموقع</h3>
-    <a href="yemen-photo.html" style="margin: 10px 0;">1- Yemen Photos <br> صور اليمن</a>
-    <a href="Author-cv.html" style="margin: 10px 0;">2- Author CV <br> السيرة الذاتية للمؤلف</a>
-    <p style="margin-top: 20px;">Independent Researcher - Sana'a, Yemen (2026)</p>
-    <p>Author: Eng. Jabr Abdulla Al-Jabri - م/ جبر عبدالله الجبري</p>
-  </div>
-
-  <!-- Footer Time/Date -->
-  <div class="footer-info">
-    <span>Time: <span id="time-footer"></span></span>
-    <span>Date: <span id="date-footer"></span></span>
+    <a href="https://jabri-web.github.io/jabri62018.github.io/" target="_blank" class="lib-card">
+      <h3>🔬 <span class="ar">سندس النظرية</span><span class="en">Sundus Theory</span></h3>
+      <p><span class="ar">المعادلة الموحدة</span><span class="en">Unified Equation</span></p>
+    </a>
+    <a href="https://jabri-web.github.io/Jabri_Nobble/" target="_blank" class="lib-card">
+      <h3>🗺️ <span class="ar">سندباد</span><span class="en">Sindbad</span></h3>
+      <p><span class="ar">رحلة الاكتشاف</span><span class="en">Journey of Discovery</span></p>
+    </a>
+    <a href="https://jabri-web.github.io/jabri_lab/" target="_blank" class="lib-card">
+      <h3>🏛️ <span class="ar">المكتبة اليمنية</span><span class="en">Yemeni Library</span></h3>
+      <p><span class="ar">تراث ومعرفة</span><span class="en">Heritage & Knowledge</span></p>
+    </a>
   </div>
 </div>
+
+<footer>
+  <p style="margin:5px">© 2026 Yemen Sindbad - <span class="ar">جميع الحقوق محفوظة</span><span class="en">All Rights Reserved</span></p>
+  <p style="margin:5px"><span class="ar">صنع بحب في اليمن</span><span class="en">Made with Love in Yemen</span> 🇾🇪</p>
+</footer>
+
+<script>
+function toggleLang() {
+  document.body.classList.toggle('en');
+  document.documentElement.dir = document.body.classList.contains('en') ? 'ltr' : 'rtl';
+  document.documentElement.lang = document.body.classList.contains('en') ? 'en' : 'ar';
+  localStorage.setItem('lang', document.body.classList.contains('en') ? 'en' : 'ar');
+}
+if(localStorage.getItem('lang') === 'en') document.body.classList.add('en');
+</script>
 
 </body>
 </html>
